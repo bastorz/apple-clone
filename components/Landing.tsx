@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/legacy/image";
-import Button from "./Button";
+import Button from "./CustomButton";
 
 function Landing() {
   return (

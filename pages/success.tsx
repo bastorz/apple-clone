@@ -12,7 +12,7 @@ import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import Currency from "react-currency-formatter";
 import { useMediaQuery } from "react-responsive";
-import Button from "../components/Button";
+import Button from "../components/CustomButton";
 import { fetchLineItems } from "../utils/fetchLineItems";
 import { useSession } from "next-auth/react";
 

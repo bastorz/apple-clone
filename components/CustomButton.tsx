@@ -7,7 +7,14 @@ interface Props {
   noIcon?: boolean;
 }
 
-function Button({ title, onClick, width, loading, padding, noIcon }: Props) {
+function CustomButton({
+  title,
+  onClick,
+  width,
+  loading,
+  padding,
+  noIcon,
+}: Props) {
   return (
     <button
       className={`ease group relative z-30 box-border inline-flex ${
@@ -41,4 +48,4 @@ function Button({ title, onClick, width, loading, padding, noIcon }: Props) {
   );
 }
 
-export default Button;
+export default CustomButton;
